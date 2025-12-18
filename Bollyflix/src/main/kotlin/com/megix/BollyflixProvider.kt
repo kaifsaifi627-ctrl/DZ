@@ -16,7 +16,7 @@ import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
 
 class BollyflixProvider : MainAPI() {
-    override var mainUrl = "https://bollyflix.promo"
+    override var mainUrl = "https://bollyflix.miami"
     override var name = "BollyFlix"
     override val hasMainPage = true
     override var lang = "hi"
